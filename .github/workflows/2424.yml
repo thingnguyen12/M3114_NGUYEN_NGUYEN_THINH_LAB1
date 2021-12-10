@@ -1,0 +1,40 @@
+- name: Setup Cpp
+  # You may pin to the exact commit or the version.
+  # uses: aminya/setup-cpp@1733a8f982086b9b59b82b4464c9042f755e12b6
+  uses: aminya/setup-cpp@v0.5.1
+  with:
+    # The compiler to use and its optional version separated by - e.g. llvm-13.0.0
+    compiler: # optional
+    # The CPU architecture
+    architecture: # optional
+    # The llvm version to install
+    llvm: # optional
+    # The gcc version to install
+    gcc: # optional
+    # The msvc version to install
+    msvc: # optional
+    # If should run vcvarsall?
+    vcvarsall: # optional
+    # The cmake version to install.
+    cmake: # optional
+    # The ninja version to install.
+    ninja: # optional
+    # The conan version to install.
+    conan: # optional
+    # The meson version to install.
+    meson: # optional
+    # The gcovr version to install.
+    gcovr: # optional
+    # The python version to install.
+    python: # optional
+    # The ccache version to install.
+    ccache: # optional
+    # The doxygen version to install.
+    doxygen: # optional
+    # The cppcheck version to install.
+    cppcheck: # optional
+    # The opencppcoverage version to install.
+    opencppcoverage: # optional
+    # The kcov version to install.
+    kcov: # optional
+          echo test, and deploy your project.
