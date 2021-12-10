@@ -1,0 +1,15 @@
+- name: Build, Push and Cloud Run
+  # You may pin to the exact commit or the version.
+  # uses: ThomFree/action-build-cloud-run@c519b5826af93b45fe6d4a19b3ef48852398b602
+  uses: ThomFree/action-build-cloud-run@1.1
+  with:
+    # Name of the docker image formatted as follow: [your-hostname]/[your-project]/[image]
+    image: 
+    # Name of the service in Cloud Run
+    service: 
+    # GCP project
+    project: 
+    # GCP region
+    region: 
+    # GCP service key with storage and run permissions in base 64
+    service key:
